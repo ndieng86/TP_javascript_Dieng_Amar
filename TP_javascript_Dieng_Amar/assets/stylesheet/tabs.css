@@ -1,0 +1,41 @@
+#tabs-1 li, #tabs-2 li, #tabs-3 li {
+	list-style-type:none;
+	text-align: left;
+	background-color:#666666;
+}
+
+
+.foot_encours, .basket_encours, .tennis_encours, .handball_encours, .foot_resultat, .basket_resultat, .tennis_resultat, .handball_resultat, .foot_avenir, .basket_avenir, .tennis_avenir, .handball_avenir{
+	display: none;
+}
+#tabs-1 ul li ul li, #tabs-2 ul li ul li, #tabs-3 ul li ul li{
+	background-color:#666666;
+}
+#tabs-1 ul li a, #tabs-2 ul li a, #tabs-3 ul li a{
+	color:black;
+}
+#tabs-1 li, #tabs-2 li , #tabs-3 li  {
+	color:white;
+}
+#tabs-1 ul li ul li ul li, #tabs-2 ul li ul li ul li, #tabs-3 ul li ul li ul li{
+	float:left;
+	background-color:#333333;
+}
+
+#tabs-1 ul li ul li ul li:nth-child(odd), #tabs-2 ul li ul li ul li:nth-child(odd), #tabs-3 ul li ul li ul li:nth-child(odd){
+	text-align:center;
+	width:45%;
+}
+
+.score{
+	width:10%;
+	
+}
+#tabs-1 ul, #tabs-2 ul, #tabs-3 ul{
+	margin:0;
+	padding:0;
+}
+#tabs-1 li a, #tabs-2 li a, #tabs-3 li a{
+	text-decoration:none;
+	
+}
